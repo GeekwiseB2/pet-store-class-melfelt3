@@ -29,12 +29,13 @@ p{
   font-weight: 400;
 }
 
-.col-xs-8, .col-sm-4, .col-md-6{
-
-}
-
 .col-xs-12, .col-sm-8, .col-m-6{
   padding-top: 25px;
+}
+
+.flex-wrapper{
+  display: flex;
+  align-items: flex-end;
 }
 /*******Thumbnails*****/
 .thumb-background{
@@ -59,7 +60,6 @@ p{
   height: 50px;
   background-color: #fff;
 }
-
 
 /*********Jumbotron********/
 .jumbotron{
@@ -109,7 +109,15 @@ footer .col-xs-12{
   padding-bottom: 20px;
 }
 
+footer a, footer{
+  text-decoration: none;
+  color: #bfc0c1;
+}
 
+footer .text-center p{
+  color: #333;
+  font-size: 16px;
+}
 
 
 /*Body*/
