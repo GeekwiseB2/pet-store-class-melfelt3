@@ -1,0 +1,105 @@
+/******Fonts*******/
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+
+/*******Universal Section********/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+/*******Header**********/
+#header-logo{
+  width: 100px;
+}
+
+#logo-style{
+  font-family: 'Satisfy', cursive;
+  color: #ff827b;
+  margin-top: 20px;
+}
+
+.text-for-nav{
+  font-family: 'Open Sans', sans-serif;
+  color: #BBD9ED;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.col-xs-12, .col-sm-8, .col-m-6{
+  padding-top: 25px;
+}
+
+.flex-wrapper{
+  display: flex;
+  align-items: flex-end;
+}
+
+.spacer{
+  height: 20px;
+}
+
+/*****Content Section Starts******/
+.container .col-md-4 img{
+  width: 180px;
+}
+
+.content-text{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #353535;
+}
+
+.table{
+  margin-top: 20px;
+}
+
+/*Footer Section Starts Here*/
+footer{
+  background-color: #231f20;
+  padding-top: 20px;
+}
+
+.right-border{
+  border-right: 1px solid #333;
+}
+
+#footer-logo{
+  height: 90px;
+}
+
+footer a{
+  text-decoration: none;
+  color: #bfc0c1;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.col-sm-3{
+  margin-top: 40px;
+}
+
+footer .col-xs-12{
+  color: #696969;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+footer a, footer{
+  text-decoration: none;
+  color: #bfc0c1;
+}
+
+footer .text-center p{
+  color: #333;
+  font-size: 16px;
+}
+
+
+/*Body*/
